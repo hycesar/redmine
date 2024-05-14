@@ -1,0 +1,13 @@
+# Strings em Português Brasileiro para Rails i18n
+pt-BR:
+  label_zen_placeholder: Deixe um comentário
+  label_click_for_edit: Clique para editar
+  label_unsaved_issue: Você tem uma tarefa não salva. Você gostaria de restaurar?
+  label_unsaved_wiki: Você tem uma página wiki não salva. Você gostaria de restaurar?
+  label_created_time: Criado %{value} atrás
+  label_zen_user_mentions: Menções do usuário
+  label_zen_issue_mentions: Menções de problemas
+  label_zen_draft_user_title: '%{user} está editando esse problema (%{date})'
+  label_zen_view_indicator: Status visualizado do problema
+  label_zen_issue_viewed_by: Visto por
+  label_zen_issue_viewed: Visto
