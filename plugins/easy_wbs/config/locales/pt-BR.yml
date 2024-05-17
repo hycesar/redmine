@@ -5,13 +5,14 @@ pt-BR:
       easy_wbs_easy_issue_query: WBS Easy
   easy_wbs:
     button_actions: Outras ações
-    button_add_child: Adicionar criança
+    button_add_comment: Adicionar comentário
+    button_add_child: Adicionar filho
     button_add_parent: Adicionar pai
     button_add_sibling: Adicionar irmão
     button_all_icons: Ícones
     button_collapse: Colapsar
     button_collapse_all: Colapsar tudo
-    button_cut: Cortar
+    button_cut: Recortar
     button_display: Configurações de visualização
     button_edit_data: Editar dados
     button_expand: Expandir
@@ -22,16 +23,17 @@ pt-BR:
     button_paste: Colar
     button_project_menu: WBS+
     button_redo: Refazer
+    button_remove_comment: Remover comentário
     button_remove_node: Remover nódulo
     button_show_links: Mostrar links
     button_undo: Desfazer
     edit_issue: Editar tarefa
+    name_an_entity_first: Nomeie uma entidade primeiro
     error_create: não pode ser criado
     error_delete: não pode ser apagado
     error_update: não pode ser atualizado
     errors:
-      not_subtaskable: Tarefa "%{task_name}" não pode ser sub tarefa, devido à configuração
-        do seu rastreador
+      not_subtaskable: Tarefa "%{task_name}" não pode ser sub tarefa, devido à configuração do seu rastreador
     free:
       button_upgrade: Obter versão completa
       button_upgrade_href: https://www.easyredmine.com/redmine-wbs-plugin
@@ -41,9 +43,8 @@ pt-BR:
       header_not_available: Disponível apenas na versão completa.
       text_not_available: Disponível apenas na versão completa de Easy WBS.
     hotkeys:
-      info_mac_metakey: Em Mac OSX, teclas Ctrl e Cmd pode ser usado para atalhos
-        marcados Ctrl em baixo - alguns browsers evitar certas combinações de teclas.
-        Então, por exemplo, se Cmd+Space não funcionar no browser, tente Ctrl+Space.
+      info_mac_metakey: Em Mac OSX, teclas Ctrl e Cmd pode ser usado para atalhos marcados Ctrl em baixo - alguns
+        browsers evitar certas combinações de teclas. Então, por exemplo, se Cmd+Space não funcionar no browser, tente Ctrl+Space.
       keyboard:
       - title: Manipulação de nódulos
         hotkeys:
@@ -88,7 +89,7 @@ pt-BR:
         - hotkey: "{"
           info: 'Multi-selecione o nódulo atual e toda subárvore sob ele '
         - hotkey: "["
-          info: Multi-selecione somente a  subárvore sob o nódulo atual (e não o próprio
+          info: Multi-selecione somente a subárvore sob o nódulo atual (e não o próprio
             nódulo)
         - hotkey: "="
           info: Multi-selecione todos os irmãos do nódulo atual (que tem o mesmo pai)
@@ -155,6 +156,7 @@ pt-BR:
       message_present: no momento é criança de "{{to}}"
       text_reload_appeal: Você quer recarregar estado desdo servidor?
       title: Último cliente de WBS é diferente do estado do servidor
+      name_an_entity_first: Nomeie uma entidade primeiro
     reload_modal:
       label_errors: Erros
       text_reload_appeal: Você quer ignorar itens que não foram salvos e recarregar
@@ -172,3 +174,4 @@ pt-BR:
     easy_issue_query: Tarefas
   project_default_page:
     easy_wbs: Easy WBS
+  project_module_easy_wbs: Easy WBS

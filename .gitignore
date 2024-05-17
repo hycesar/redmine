@@ -45,3 +45,15 @@
 
 /node_modules
 yarn-error.log
+
+
+/app/*
+/bin/*
+/db/*
+/doc/*
+/extra/*
+/lib/*
+/log/*
+/pulic/*
+/test/*
+

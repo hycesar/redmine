@@ -1,0 +1,159 @@
+---
+en:
+  easy_mindmup:
+    button_add_child: Adicionar filho
+    button_add_parent: Adicionar pai
+    button_add_sibling: Adicionar irmão
+    button_all_icons: Ícones
+    button_collapse: Recolher
+    button_collapse_all: Recolher todos
+    button_cut: Recortar
+    button_edit_data: Editar dados
+    button_expand: EExpandir
+    button_expand_all: Expandir todos
+    button_expand_collapse: Expandir/Recolher
+    button_legend: LLegenda
+    button_one_side: Um lado
+    button_paste: Colar
+    button_project_menu: MindMup+
+    button_redo: Refazer
+    button_remove_node: Remover nó
+    button_show_links: Mostrar links
+    button_undo: Desfazer
+    error_create: não foi possível criar
+    error_delete: não foi possível excluir
+    error_update: não foi possível atualizar
+    errors:
+      not_subtaskable: A tarefa "%{task_name}" não pode ser subtarefa devido à configuração de seu rastreador
+      no_rest_api: A API REST está desativada. Por favor, habilite-o em Administração.
+    free:
+      button_upgrade: Tenha a versão completa
+      feature_coloring: Colorindo nós por propriedade
+      feature_context_menu: Alterando as propriedades do nó por menu de contexto
+      feature_dnd_property: Alterando as propriedades do nó por arrastando e soltando
+      feature_filtering: Filtrando nós por propriedade
+      header_not_available: Disponível apenas na versão completa
+    button_hotkeys: Teclas de atalho
+    hotkeys:
+      info_mac_metakey: No Mac OSX, as teclas Ctrl e Cmd podem ser usadas para atalhos marcados com Ctrl abaixo - alguns navegadores
+        impedem determinadas combinações de teclas. Então, por exemplo, se Cmd+Space não funcionar no seu navegador, tente Ctrl+Space.
+      keyboard:
+      - title: Manipulação de nó
+        hotkeys:
+        - hotkey: Enter
+          info: Adicionar irmão
+        - hotkey: Shift+Enter
+          info: Adicionar irmão acima ou quebra de linha (ao renomear o nó)
+        - hotkey: Tab or Insert
+          info: Adicionar filho
+        - hotkey: Shift+Tab
+          info: Inserir pai
+        - hotkey: Espaço
+          info: Renomear nó
+        - hotkey: Shift+Espaço
+          info: Editar dados do nó
+        - hotkey: Backspace ou Delete
+          info: Remover nó
+        - hotkey: Ctrl+Up/Down
+          info: Mover nó para cima/para baixo
+      - title: Edição
+        hotkeys:
+        - hotkey: Ctrl+S
+          info: Salvar
+        - hotkey: Ctrl+X ou C
+          info: Recortar
+        - hotkey: Ctrl+C ou Y
+          info: Copiar
+        - hotkey: Ctrl+V ou P
+          info: Colar
+        - hotkey: U ou Ctrl+Z
+          info: Desfazer
+        - hotkey: R ou Ctrl+Y ou Ctrl+Shift+Z
+          info: Refazer
+      - title: Seleção
+        hotkeys:
+        - hotkey: Setas do teclado
+          info: Selecione o nó acima/abaixo/esquerdo/direito do atualmente selecionado
+        - hotkey: Shift + Setas do teclado
+          info: Adicionar nó para cima/para baixo/esquerda/direita à seleção (útil para seleção múltipla de irmãos)
+        - hotkey: "{"
+          info: Selecione várias vezes o nó atual e toda a subárvore abaixo dele
+        - hotkey: "["
+          info: Selecione apenas a subárvore no nó atual (não o próprio nó)
+        - hotkey: "="
+          info: Selecione todos os irmãos do nó atual (que tenham o mesmo pai)
+        - hotkey: "."
+          info: Cancele a seleção múltipla e selecione apenas o nó atual novamente
+        - hotkey: 1 - 9
+          info: Selecione todos os nós de um determinado nível (por exemplo, 1 seleciona todos os nós de primeiro nível)
+      - title: Navegação e tela
+        hotkeys:
+        - hotkey: "/ or F"
+          info: Expandir ou recolher nó (dobrar ou desdobrar filhos)
+        - hotkey: Ctrl + or Z
+          info: Mais Zoom
+        - hotkey: Ctrl - or Shift Z
+          info: Reduzir o zoom
+        - hotkey: Esc, 0, Ctrl+0
+          info: Redefinir visualização do mapa - selecione o nó raiz e traga-o para o centro da tela
+      mouse:
+      - action: Mova o mapa
+        gesture: clique e arraste o nó central, clique e arraste o fundo ou role com o trackpad/touchpad.
+      - action: Selecione um nó
+        gesture: toque ou clique nele
+      - action: Selecione vários nós
+        gesture: Shift+clique
+      - action: Reordenar nós
+        gesture: arraste um nó entre seus irmãos, horizontalmente próximo à posição de reordenação. 
+          Uma seta preta será exibida ao fazer um novo pedido.
+      - action: Posicionar manualmente um nó
+        gesture: basta arrastar um nó até que a seta para reordenar não apareça. Para forçar a posição manual mesmo quando a seta de
+          reordenação estiver aparecendo, mantenha pressionada a tecla Shift enquanto arrasta. Observe que os filhos do nó raiz podem
+          ser puxados em qualquer direção, mas os nós de nível inferior só podem ser posicionados na direção de seu pai em relação à raiz.
+      - action: Renomear um nó
+        gesture: Clique duas vezes ou toque duas vezes nele
+      - action: Mostrar menu de contexto com operações
+        gesture: 'Clique com o botão direito em um nó (com o mouse) ou toque duas vezes no fundo, ou mostrar (em dispositivos sensíveis ao toque)'
+      - action: Alterar nó pai
+        gesture: arraste e solte um nó em outro nó (gotas circulares não são permitidas, portanto você não pode soltar um nó em um de seus filhos ou descendentes)
+      - action: Abra o problema ou projeto em janela separada
+        gesture: Alt+clique
+      title_key_shortcuts: Operações do teclado
+      title_mouse_shortcuts: Operações de mouse e toque
+      title_shortcuts: Atalhos
+    info_all_saved: Tudo salvo com sucesso
+    info_any_failed: 'Algumas das solicitações falhou:'
+    info_no_permission: Você não tem as permissões necessárias para fazer isso
+    warning_delete_node: Você realmente deseja excluir o nó {{name}} e todos os seus descendentes?
+    warning_delete_nodes: Você realmente deseja excluir esses nós e todos os seus descendentes?
+    label_color_by: Colorir por
+    label_go_to: Ir para
+    label_hide_unused: Ocultar não utilizado
+    label_or: ou
+    last_state_modal:
+      label_differencies: Diferenças no servidor
+      message_changed: têm atributos diferentes (browser => server) ({{changes}})
+      message_missing: está faltando no pai "{{from}}"
+      message_moved: é filho de "{{to}}", não de "{{from}}"
+      message_present: está presente como filho de"{{to}}"
+      text_reload_appeal: Você deseja recarregar o estado do servidor?
+      title: O último estado do mapa mental do cliente é diferente do estado do servidor
+    reload_modal:
+      label_errors: Erros
+      text_reload_appeal: Deseja ignorar itens não salvos e recarregar os dados do servidor?
+      title: O mapa mental não foi salvo corretamente
+    stored_modal:
+      text_load_appeal: Você quer carregá-lo? Ou você deseja carregar o novo estado do servidor?
+      title: Versão local não salva foi encontrada
+      button_local: Versão local
+      button_server: Versão do servidor
+    save_info:
+      loaded: Carregado
+      saved: Salvo
+      autosaved: Salvo automaticamente
+      at: no
+    label_save_progress: Aguarde, todas as entidades estão sendo salvas
+    label_show_unused: Mostrar não utilizado
+    warning_not_saved: não está salvo corretamente
+    title_node_changed: Este nó foi alterado e será salvo
+    label_less: Menos

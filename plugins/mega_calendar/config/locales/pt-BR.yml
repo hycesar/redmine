@@ -1,49 +1,49 @@
 ﻿pt-BR:
-  calendar: 'Mega Calendário'
-  holidays: 'Férias'
-  holiday: 'Férias'
-  my_issues: 'Minhas Atividades'
-  all_issues: 'Todas as atividades'
-  user: 'Usuários'
-  group: 'Grupos'
-  start: 'Início'
-  end: 'Fim'
-  action: 'Ação'
-  show: 'Mostrar'
-  edit: 'Editar'
-  new: 'Novo'
-  destroy: 'Excluir'
-  prev: 'Antes'
-  next: 'Próximo'
-  save: 'Salvar'
-  list: 'Listar'
-  filter_name: 'Filtrar nome'
-  save_filter: 'Salvar filtro'
-  global_filter: 'Mostrar todos os usuários'
-  use_saved_filter: 'Usar filtro'
-  display_empty_dates: 'Mostrar tarefas sem data'
-  def_holiday_color: 'Cor padrão para férias'
-  def_color: 'Cor padrão'
-  project: 'Projeto'
-  status: 'Status'
-  save_question: 'Você quer realmente salvar?'
-  field_start: 'Início'
-  field_end: 'Fim'
-  select_default: 'Selecionar...'
-  sub_path: 'URL sub caminho'
-  no_right: 'Você não tem direitos suficientes para ver essa seção!'
-  allowed_users: 'Usuários permitidos'
-  day0: 'Domingo'
-  day1: 'Segunda'
-  day2: 'Terça'
-  day3: 'Quarta'
-  day4: 'Quinta'
-  day5: 'Sexta'
-  day6: 'Sábado'
-  week_start: 'Início da semana'
-  export_to_ics: 'Exportar como .ics'
-  export: 'Exportar'
-  select_time_range_for_export: 'Por favor, selecione uma faixa de tempo'
-  cancel: 'Cancelar'
-  please_select_time_range: 'Você deve especificar uma faixa!'
-  greater_than_start: 'Deve ser maior que a data de início.'
+  calendar: "Mega Calendário"
+  holidays: "Férias"
+  holiday: "Férias"
+  my_issues: "Minhas Atividades"
+  all_issues: "Todas as atividades"
+  user: "Usuários"
+  group: "Grupos"
+  start: "Início"
+  end: "Fim"
+  action: "Ação"
+  show: "Mostrar"
+  edit: "Editar"
+  new: "Novo"
+  destroy: "Excluir"
+  prev: "Antes"
+  next: "Próximo"
+  save: "Salvar"
+  list: "Listar"
+  filter_name: "Filtrar nome"
+  save_filter: "Salvar filtro"
+  global_filter: "Mostrar todos os usuários"
+  use_saved_filter: "Usar filtro"
+  display_empty_dates: "Mostrar tarefas sem data"
+  def_holiday_color: "Cor padrão para férias"
+  def_color: "Cor padrão"
+  project: "Projeto"
+  status: "Status"
+  save_question: "Você quer realmente salvar?"
+  field_start: "Início"
+  field_end: "Fim"
+  select_default: "Selecionar..."
+  sub_path: "URL sub caminho"
+  no_right: "Você não tem direitos suficientes para ver essa seção!"
+  allowed_users: "Usuários permitidos"
+  day0: "Domingo"
+  day1: "Segunda"
+  day2: "Terça"
+  day3: "Quarta"
+  day4: "Quinta"
+  day5: "Sexta"
+  day6: "Sábado"
+  week_start: "Início da semana"
+  export_to_ics: "Exportar como .ics"
+  export: "Exportar"
+  select_time_range_for_export: "Por favor, selecione uma faixa de tempo"
+  cancel: "Cancelar"
+  please_select_time_range: "Você deve especificar uma faixa!"
+  greater_than_start: "Deve ser maior que a data de início."
